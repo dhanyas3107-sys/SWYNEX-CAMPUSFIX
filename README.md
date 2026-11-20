@@ -267,24 +267,10 @@ mvn test -Dtest=CampusFixWorkflowIT
 * No connection pool (a new connection per operation; fine for a console app, a pool such as HikariCP would be the next step).
 * Pagination for very large complaint lists.
 
-## 18. Upload to GitHub
-
-Create an **empty** repository on github.com first (no README/license), then:
-
-```bash
-cd campusfix
-git init
-git add .
-git status                      # check: no .env, no target/ in the list
-git commit -m "CampusFix: campus maintenance and complaint management system"
-git branch -M main
-git remote add origin https://github.com/<your-username>/campusfix.git
-git push -u origin main
-```
 
 ## 19. Author and internship context
 
 Built as the final task of a **Java Developer Internship** by a second-year Computer Science Engineering student, to
 demonstrate OOP, JDBC/MySQL, validation, exception handling, clean architecture, testing and documentation.
 
-*Author:* <your name> · *Institution:* <your college> · *Internship provider:* <company / mentor>
+*Author:* DHANYA · *Institution:* CHENNAI INSTITUTE OF TECHNOLOGY · *Internship provider: SWYNEX TECHNOLOGY
